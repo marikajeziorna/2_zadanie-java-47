@@ -11,8 +11,45 @@ public class Product {
         this.price = price;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getProducer() {
+        return producer;
+    }
+
+    public void setProducer(String producer) {
+        this.producer = producer;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     @Override
     public String toString() {
         return name + ";" + producer + ";" + price + "\n";
+    }
+
+    public double totalPriceProducts(double sum){
+        return sum += price;
+    }
+
+    public String findExpenciveProduct(String name){
+        return name;
+
+    }
+
+    public String findRepeatedProducerName(String producerName){
+        return producerName;
     }
 }

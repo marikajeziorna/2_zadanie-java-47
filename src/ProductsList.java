@@ -1,7 +1,6 @@
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
 
 public class ProductsList {
     public static void main(String[] args) throws IOException {
