@@ -8,14 +8,20 @@ public class Calculator {
         FileReader fileReader = new FileReader("product.csv");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-        for (Product product : products) {
-            String line = null;
+        int producerCount = 0;
+        double priceCount = 0;
+        double highestPrice = 0;
+
+        String line;
             while ((line = bufferedReader.readLine()) != null) {
+//                if( products.length ){
+                    priceCount++;
+
                 System.out.println(line);
             }
             bufferedReader.close();
         }
-        
+
     }
 
 }

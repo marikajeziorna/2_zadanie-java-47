@@ -40,8 +40,8 @@ public class Product {
         return name + ";" + producer + ";" + price + "\n";
     }
 
-    public double totalPriceProducts(double sum){
-        return sum += price;
+    public double totalPriceProducts(){
+        return price += getPrice();
     }
 
     public String findExpenciveProduct(String name){
