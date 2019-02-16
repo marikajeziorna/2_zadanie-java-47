@@ -24,8 +24,6 @@ public class GetCsvData {
             products.add(new Product(dataLine[0], dataLine[1], Double.valueOf(dataLine[2])));
         }
         return products;
-
     }
-
 }
 

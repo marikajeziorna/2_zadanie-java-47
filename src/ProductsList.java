@@ -1,5 +1,6 @@
-
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class ProductsList {
     public static void main(String[] args) throws IOException {
@@ -17,6 +18,7 @@ public class ProductsList {
 
         for (int i = 0; i < products.length; i++) {
             bufferedWriter.write(products[i].toString());
-        }bufferedWriter.close();
+        }
+        bufferedWriter.close();
     }
 }
