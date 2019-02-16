@@ -39,17 +39,4 @@ public class Product {
     public String toString() {
         return name + ";" + producer + ";" + price + "\n";
     }
-
-    public double totalPriceProducts(){
-        return price += getPrice();
-    }
-
-    public String findExpenciveProduct(String name){
-        return name;
-
-    }
-
-    public String findRepeatedProducerName(String producerName){
-        return producerName;
-    }
 }
